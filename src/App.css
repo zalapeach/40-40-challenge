@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f5f8fd;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+/**************************/
+.modalLogin{
+  margin-top:100px
+}
+.modalLoginMain{
+ margin-top: 50px;
+ /*background-color: aquamarine;*/
+ 
+ }
+ .inputLogin{
+   background-color: rgb(191, 236, 250);
+   margin-top: 50px;
+   height: 50px;
+   
+ }
+ .title{
+   margin-top: 40px;
+   text-align: center;
+ }
+ .btnLogin{
+   margin-bottom: 50px;
+   margin-top: 50px;
+   width: 200PX;
+   background-color: rgb(225, 248, 93);
+   color: black;
+ }
+ 
