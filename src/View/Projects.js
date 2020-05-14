@@ -1,9 +1,10 @@
 import React from 'react';
 import TableProjects from './../Components/TableProjects';
-
+import Navbar from '../Components/navigation/Navbar';
 const Projects = ()=>{
 return(
 <div>
+<Navbar/>
     <table className='table table-bordered'>
         <thead className='table-light'>
             <tr>
@@ -13,7 +14,7 @@ return(
             </tr>
         </thead>
         <tbody>
-        <TableProjects />
+        <TableProjects/>
         </tbody>
     </table>
 </div>
