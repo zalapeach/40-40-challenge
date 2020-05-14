@@ -1,4 +1,5 @@
 import React,{ Component } from "react";
+import { Link } from "react-router-dom";
 
 class Title extends Component {
     render(){
@@ -23,7 +24,7 @@ export default class Login extends Component {
                             placeholder="ID"/>
                          </div>
                          <div className="col-sm text-center">
-                            <button type="submit"  className="btn btn-secondary btnLogin">ENTRAR</button>
+                           <Link to='/Projects'> <button type="submit"  className="btn btn-secondary btnLogin">ENTRAR</button> </Link>
                         </div>
 
                      </div>
