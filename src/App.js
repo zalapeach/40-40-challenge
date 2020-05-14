@@ -1,12 +1,17 @@
 import React from 'react';
+import Login from './View/Login.js'
+import Projects from './View/Projects';
+import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import { projectsInfo, tasksInfo, userInfo } from './librery/functionsApiCalls';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  //const dataProjects = projectsInfo();
-  const datatasks = tasksInfo();
-  //const dataUser = userInfo();
+const dataProjects = projectsInfo();
+const datatasks = tasksInfo();
+const dataUser = userInfo();
+
+const App =() => {
+const dataProjects = projectsInfo();
+const datatasks = tasksInfo();
+const dataUser = userInfo();
   return (
     
     <div className="App">
