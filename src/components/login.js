@@ -1,0 +1,35 @@
+import React,{ Component } from "react";
+
+class Title extends Component {
+    render(){
+        return<div className="col-sm-12  title" >
+            <h1>{this.props.title}</h1>
+
+        </div>
+    }
+}
+export default class Login extends Component {
+    render(){
+        return <div className="modal-dialog"> 
+                 <div className="col-sm-12 modalLogin">
+                     <div className="modal-content modalLoginMain">
+                         <Title title="4040APPS"/>
+                         <div className="col-sm  form-group ">
+                         <input type="email" className="form-control inputLogin" 
+                            aria-describedby="emailHelp" placeholder="NOMBRE"/>
+                         </div>
+                         <div className="col-sm  form-group ">
+                         <input type="password" className="form-control inputLogin"
+                            placeholder="ID"/>
+                         </div>
+                         <div className="col-sm text-center">
+                            <button type="submit"  className="btn btn-secondary btnLogin">ENTRAR</button>
+                        </div>
+
+                     </div>
+
+                 </div>
+
+            </div>
+   }
+}              
