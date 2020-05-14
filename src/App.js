@@ -1,15 +1,16 @@
-
 import React from 'react';
-import Navbar from './components/navigation/Navbar';
-import { BrowserRouter } from 'react-router-dom';
+import Login from './View/Login.js'
+import Projects from './View/Projects';
+import { BrowserRouter, Switch, Route} from 'react-router-dom';
 
-function App() {
+const App =() => {
   return (
     <BrowserRouter>
-      <Navbar />
-    </BrowserRouter>
-
-  );
+    <Switch>
+  <Route exact path="/" component={Login} />
+  <Route path="/Projects" component={Projects} />
+</Switch>
+    </BrowserRouter>)
 }
 
 export default App;
