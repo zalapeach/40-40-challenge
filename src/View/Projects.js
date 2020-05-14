@@ -1,6 +1,6 @@
 import React from 'react';
-import TableProjects from './../Components/TableProjects';
-import Navbar from '../Components/navigation/Navbar';
+import TableProjects from './../components/TableProjects';
+import Navbar from '../components/navigation/Navbar';
 const Projects = ()=>{
 return(
 <div>
