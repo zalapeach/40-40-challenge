@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Navbar from './components/navigation/Navbar';
 import { BrowserRouter } from 'react-router-dom';
@@ -7,6 +8,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
     </BrowserRouter>
+
   );
 }
 
