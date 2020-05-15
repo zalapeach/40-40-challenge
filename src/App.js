@@ -6,6 +6,7 @@ import Graphics from './View/Graphics'
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 
 const App =() => {
+
   return (
     <BrowserRouter>
     <Switch>

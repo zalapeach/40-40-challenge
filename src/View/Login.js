@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/Login.css';
 
-
 class Title extends Component {
     render(){
         return<div className='col-sm-12  title' >
