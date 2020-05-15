@@ -16,7 +16,8 @@ return(
             </tr>
         </thead>
         <tbody>
-        <TableProjects/>
+        <TableProjects Project='Cubos' Homework='12' Priority='Medium'/>
+        <TableProjects Project='Laboratoria' Homework='9' Priority='High'/>
         </tbody>
     </table>
  

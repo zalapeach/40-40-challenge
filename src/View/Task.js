@@ -6,7 +6,8 @@ export default class Task extends Component{
     render(){
         return<div>
             <Navbar/>
-            <TaskCard/>
+            <TaskCard Project= 'Cubos' Homework='Hacer Login'/>
+            <TaskCard Project= 'Cubos' Homework='Hacer testing'/>
         </div>
     }
 }
