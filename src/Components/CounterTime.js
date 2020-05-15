@@ -1,34 +1,35 @@
-import React from 'react';
+import React  from 'react';
 import Timer from 'react-compound-timer';
+import moment from 'moment'
+import TimeObj from './TimeOb'
 
 const Counter = () =>{
     return(
         <Timer
-    initialTime={00000}
+    initialTime={0}
     startImmediately={false}
-    onStart={() => console.log('onStart hook')}
-    onResume={() => console.log('onResume hook')}
-    onPause={() => console.log('onPause hook')}
-    onStop={() => console.log('onStop hook')}
-    onReset={() => console.log('onReset hook')}
+    onStart={() => console.log( TimeObj.initDate = moment().format('X'), 'start')}
+    onPause={() => console.log( TimeObj.finishDate = moment().format('X'), 'pause')}
 >
-    {({ start, resume, pause, stop, reset, timerState }) => (
+    {({ start, pause, timerState }) => (
         <React.Fragment>
-            <div>
-                <Timer.Days /> days
-                <Timer.Hours /> hours
-                <Timer.Minutes /> minutes
-                <Timer.Seconds /> seconds
-                <Timer.Milliseconds /> milliseconds
+        <div className='container'>
+            <div className='row'>
+            <button className='btn btn-lg btn-outline-danger btn-sm'>
+                <Timer.Days /> {'Días '}
+                <Timer.Hours /> {'Horas '}
+                <Timer.Minutes /> {'Minutos '}
+                <Timer.Seconds /> {'Segundos '}
+            </button>
             </div>
-            <div>{timerState}</div>
-            <br />
-            <div>
-                <button onClick={start}>Start</button>
-                <button onClick={pause}>Pause</button>
-                <button onClick={resume}>Resume</button>
-                <button onClick={stop}>Stop</button>
-                <button onClick={reset}>Reset</button>
+            <div class='row justify-content-around'>
+                <div class='col'>
+                <button onClick={start} className='btn btn-outline-success btn-sm'>Start</button>
+                </div>
+                <div class='col'>
+                <button onClick={pause} className='btn btn-outline-dark btn-sm'>Pause</button>
+                </div>
+            </div>
             </div>
         </React.Fragment>
     )}

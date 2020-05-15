@@ -71,7 +71,7 @@ const MyMobileNavButton = styled.button`
     border: none;
     display: none;
     transition: transform .5s ease-in-out;
-    transform: rotate(${ props => props.displayMobileNavbar ? ("-90deg") : ("90deg") });
+    transform: rotate(${ props => props.displayMobileNavbar ? ('-90deg') : ('90deg') });
 
     @media screen and (max-width: 768px) {
         display: block;
@@ -80,7 +80,7 @@ const MyMobileNavButton = styled.button`
 const DesktopNavbar = props => {
     return (
         <MyDesktopNavbar>
-            <div className="logo">4040Apps</div>
+            <div className='logo'>4040Apps</div>
 
             <Navlinks />
     
@@ -88,7 +88,7 @@ const DesktopNavbar = props => {
                 displayMobileNavbar = { props.displayMobileNavbar }
                 onClick = { props.toggleMobileNavbar }
             >
-                <img src={mobileNavIcon} alt="nav icon"/>
+                <img src={mobileNavIcon} alt='nav icon'/>
             </MyMobileNavButton>
         
         </MyDesktopNavbar>
