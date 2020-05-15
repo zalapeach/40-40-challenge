@@ -1,19 +1,54 @@
+.App {
+  text-align: center;
+}
 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f5f8fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/**************************/
 .modalLogin{
   margin-top:100px
 }
 .modalLoginMain{
  margin-top: 50px;
- background-color: rgb(114, 207, 198);
- box-shadow: 6px -5px 5px 0px rgba(0,0,0,0.75);
+ /*background-color: aquamarine;*/
  
  }
  .inputLogin{
-  /* background-color: rgb(191, 236, 250);*/
+   background-color: rgb(191, 236, 250);
    margin-top: 50px;
    height: 50px;
-   border-radius:15px;
-   border-color: rgb(231, 233, 121);
    
  }
  .title{
@@ -23,9 +58,8 @@
  .btnLogin{
    margin-bottom: 50px;
    margin-top: 50px;
-   width: 300PX;
-   height: 50px;
-   border-radius: 15px;
-   
+   width: 200PX;
+   background-color: rgb(225, 248, 93);
+   color: black;
  }
  
