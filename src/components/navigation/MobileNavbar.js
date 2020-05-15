@@ -8,7 +8,7 @@ const MyMobileNavbar = styled.nav`
     background: ${ props => props.theme.primary };
     align-self: flex-end;
     transition: transform .5s;
-    transform: translateX( ${ props => props.displayMobileNavbar ? ("0%") : ("100%") } );
+    transform: translateX( ${ props => props.displayMobileNavbar ? ('0%') : ('100%') } );
 
     @media screen and (min-width: 768px) {
         display: none;
