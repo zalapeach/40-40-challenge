@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/Login.css';
 
-
 class Title extends Component {
     render(){
         return<div className='col-sm-12  title' >
@@ -20,6 +19,7 @@ export default class Login extends Component {
                          <div className='col-sm  form-group'>
                          <input type='email' className='form-control inputLogin' 
                             aria-describedby='emailHelp' placeholder='EMAIL'/>
+
                          </div>
                          <div className='col-sm  form-group'>
                          <input type='password' className='form-control inputLogin'
