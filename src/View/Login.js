@@ -1,5 +1,6 @@
 import React,{ Component } from "react";
 import { Link } from "react-router-dom";
+import '../Styles/Login.css';
 
 class Title extends Component {
     render(){
@@ -9,7 +10,7 @@ class Title extends Component {
         </div>
     }
 }
-export default class Login extends Component {
+export default class Login extends Component {  
     render(){
         return <div className="modal-dialog"> 
                  <div className="col-sm-12 modalLogin">
