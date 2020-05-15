@@ -12,7 +12,7 @@ const Navlinks = props => {
                 <Link to='/Projects' className='link' tabIndex = { tempTabIndex }>Home</Link>
             </li>
             <li>
-                <Link to='/SignOut' className='link' tabIndex = { tempTabIndex }>Sign out</Link>
+                <Link to='/' className='link' tabIndex = { tempTabIndex }>Sign out</Link>
             </li>
             <li>
                 <Link to='/Task' className='link' tabIndex = { tempTabIndex }>Task</Link>
