@@ -5,6 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './theme';
+import inactivityTime from './Components/AlertMouse';
+
+inactivityTime()
 
 ReactDOM.render(
   <React.StrictMode>

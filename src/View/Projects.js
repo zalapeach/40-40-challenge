@@ -1,7 +1,6 @@
 import React from 'react';
 import TableProjects from './../Components/TableProjects';
 import Navbar from '../Components/navigation/Navbar';
-import Counter from '../Components/CounterTime';
 import {mockInfoProjects} from '../librery/mockInfo'
 
 const Projects = ()=>{
