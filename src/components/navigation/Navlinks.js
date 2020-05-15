@@ -4,18 +4,21 @@ import { Link } from 'react-router-dom';
 const Navlinks = props => {
     let tempTabIndex;
     if (props.isMobileLink) {
-        tempTabIndex = "-1"
+        tempTabIndex = '-1'
     }
     return (
-        <ul className="nav-links">
+        <ul className='nav-links'>
             <li>
-                <Link to="/" className="link" tabIndex = { tempTabIndex }>Home</Link>
+                <Link to='/Projects' className='link' tabIndex = { tempTabIndex }>Home</Link>
             </li>
             <li>
-                <Link to="/about" className="link" tabIndex = { tempTabIndex }>Sign out</Link>
+                <Link to='/SignOut' className='link' tabIndex = { tempTabIndex }>Sign out</Link>
             </li>
             <li>
-                <Link to="/contact" className="link" tabIndex = { tempTabIndex }>Contact</Link>
+                <Link to='/contact' className='link' tabIndex = { tempTabIndex }>Contact</Link>
+            </li>
+            <li>
+                <Link to='Graphics' className='link' tabIndex = { tempTabIndex }> Graphics</Link>
             </li>
         </ul>
     )
