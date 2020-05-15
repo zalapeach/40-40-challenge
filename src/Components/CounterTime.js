@@ -37,7 +37,3 @@ const Counter = () =>{
 }
 
 export default Counter
-/**
- * <button className='btn btn-success btnInit'><i className="fas fa-play"></i></button>
-                            <button className='btn btn-primary'><i className="fas fa-pause"></i></button>
- */

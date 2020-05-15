@@ -14,7 +14,6 @@ const MyDesktopNavbar = styled.nav`
 
     .logo {
         font-size: 7vh;
-        text-shadow: 3px 3px 3px black;
     }
 
     .nav-links {

@@ -2,7 +2,7 @@ import React from 'react';
 import Chart from "react-google-charts";
 import Navbar from '../Components/navigation/Navbar';
 
-const Graphics = ({arrayData})=>{
+const Graphics = ({name, hours, nameGraphic})=>{
     return(
         <div>
         <Navbar/>
