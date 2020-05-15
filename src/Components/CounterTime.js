@@ -1,7 +1,8 @@
 import React  from 'react';
 import Timer from 'react-compound-timer';
-import moment from 'moment'
-import TimeObj from './TimeOb'
+import moment from 'moment';
+import TimeObj from './TimeOb';
+import '../Styles/TaskCard.css';
 
 const Counter = () =>{
     return(
@@ -22,12 +23,10 @@ const Counter = () =>{
                 <Timer.Seconds /> {'Segundos '}
             </button>
             </div>
-            <div class='row justify-content-around'>
-                <div class='col'>
-                <button onClick={start} className='btn btn-outline-success btn-sm'>Start</button>
-                </div>
-                <div class='col'>
-                <button onClick={pause} className='btn btn-outline-dark btn-sm'>Pause</button>
+            <div className='row justify-content-around'>
+                <div className='col'>
+                <button onClick={start} className='btn btn-success btnInit'><i className="fas fa-play"></i></button>
+                <button onClick={pause} className='btn btn-primary'><i className="fas fa-pause"></i></button>
                 </div>
             </div>
             </div>
@@ -38,3 +37,7 @@ const Counter = () =>{
 }
 
 export default Counter
+/**
+ * <button className='btn btn-success btnInit'><i className="fas fa-play"></i></button>
+                            <button className='btn btn-primary'><i className="fas fa-pause"></i></button>
+ */
