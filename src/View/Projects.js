@@ -1,9 +1,12 @@
 import React from 'react';
 import TableProjects from './../Components/TableProjects';
 import Navbar from '../Components/navigation/Navbar';
+
+
+
 const Projects = ()=>{
 return(
-<div>
+<div>  
 <Navbar/>
     <table className='table table-bordered'>
         <thead className='table-light'>
@@ -17,6 +20,8 @@ return(
         <TableProjects/>
         </tbody>
     </table>
+ 
+   
 </div>
 )
 }
