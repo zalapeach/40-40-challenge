@@ -1,4 +1,4 @@
-const mockInfoProjects = () => {[
+const mockInfoProjects = [
     {
         "id": "6",
         "name": "Volcán Ajusco",
@@ -239,9 +239,9 @@ const mockInfoProjects = () => {[
         "stripe_id": null,
         "registration_confirmed": "1"
     }
-]};
+];
 
-const mockInfoTasks = () => {[
+const mockInfoTasks = [
     {
         "id": "6",
         "name": "Convertir cotización a factura",
@@ -1925,9 +1925,9 @@ const mockInfoTasks = () => {[
         "visible_to_client": "1",
         "deadline_notified": "0"
     }
-]};
+];
 
-const mockInfoUsers = () => {
+const mockInfoUsers = [
     {
     "staffid": "1",
     "email": "gabriela@4040apps.com",
@@ -1965,6 +1965,6 @@ const mockInfoUsers = () => {
     "full_name": "Gabriela J",
     "permissions": []
 }
-};
+];
 
 export {mockInfoProjects, mockInfoTasks, mockInfoUsers};

@@ -1,9 +1,12 @@
 import React from 'react';
-import TableProjects from './../components/TableProjects';
-import Navbar from '../components/navigation/Navbar';
+import TableProjects from './../Components/TableProjects';
+import Navbar from '../Components/navigation/Navbar';
+import Counter from '../Components/CounterTime';
+import {mockInfoProjects} from '../librery/mockInfo'
+
 const Projects = ()=>{
 return(
-<div>
+<div>  
 <Navbar/>
     <table className='table table-bordered'>
         <thead className='table-light'>
@@ -17,6 +20,8 @@ return(
         <TableProjects/>
         </tbody>
     </table>
+ 
+   
 </div>
 )
 }
