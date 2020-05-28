@@ -16,7 +16,7 @@ export default class Login extends Component {
                  <div className='col-sm-12 modalLogin'>
                      <div className='modal-content modalLoginMain'>
                          <Title title='4040APPS'/>
-                         <div className='col-sm  form-group'>
+                         <div className='col-sm form-group'>
                          <input type='email' className='form-control inputLogin' 
                             aria-describedby='emailHelp' placeholder='EMAIL'/>
                          </div>
