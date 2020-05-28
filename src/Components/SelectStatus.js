@@ -1,10 +1,10 @@
 import React from 'react';
 
-const SelectStatus = (selectStatus) =>{
+const SelectStatus = ({status}) =>{
 
 return(
 <select className='custom-select' id='inputGroupSelect02'>
-                <option selected> {selectStatus + ' '} cambiar</option>
+                <option selected> {status} cambiar</option>
                 <option defaultValue='1' className='Complete'> Completado</option>
                 <option defaultValue='2' className='Review'>Revisión</option>
                 <option defaultValue='3' className='Stop'> Detenido por cliente</option>
