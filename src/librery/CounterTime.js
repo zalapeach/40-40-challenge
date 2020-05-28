@@ -1,7 +1,7 @@
 import React  from 'react';
 import Timer from 'react-compound-timer';
 import moment from 'moment';
-import TimeObj from './TimeOb';
+import TimeObj from '../Components/TimeOb';
 import '../Styles/TaskCard.css';
 
 const Counter = () =>{
