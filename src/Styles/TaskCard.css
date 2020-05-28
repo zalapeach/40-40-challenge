@@ -4,3 +4,7 @@
 .divCards{
     margin-top: 50px;
 }
+
+.col-sm-4{
+    float: left;
+}
