@@ -6,7 +6,8 @@ const TableProjects = ({Project, Homework, Priority})=>{
     return(
         <tr className='table'>
         <td>
-       <Link to='/Task'><button type='button' className='btn btn-outline-dark btn-lg btn-block'>{Project}</button> </Link> </td>
+       <Link to='/Task'><button type='button' className='btn btn-outline-dark btn-lg btn-block'>{Project}</button> </Link> 
+       </td>
         <td>
             {Homework}
         </td>
